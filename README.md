@@ -173,7 +173,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
-
+```
 #include "main.h"
 #include "lcd.h"
 MX_GPIO_Init();
@@ -186,7 +186,7 @@ MX_GPIO_Init();
   Lcd_string(&lcd,"DEPT:CSE(CS)");
   Lcd_cursor(&lcd,1,0);
   Lcd_string(&lcd,"AISHWARYA S");
-
+```
 
 ## Output screen shots of proteus  :
  ![image](https://github.com/Aishwarya-sankar/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/121418444/8a6c8337-cf41-494b-b3bb-d08ea82f7457)
